@@ -1,9 +1,27 @@
 
-/* 
-	STYLE.CSS:
-	One stylesheet to rule them all.
-	
-	selector { property:value }
-	
-*/
+@import url(https://fonts.googleapis.com/css?family=Lobster);
 
+.wrapper {
+  width: 600px;
+  margin: auto;
+}
+
+header {
+  height: 100px;
+  background-color: #76D7C4;
+}
+
+main {
+  height: 100px;
+  background-color: #76D7C4;
+  font-family: 'Lobster', cursive;
+}
+
+footer {
+  height: 100px;
+  background-color: #76D7C4;
+}
+
+#welcome-mat {
+  font-family: 'Lobster', cursive;
+}
